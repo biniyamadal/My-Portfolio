@@ -12,19 +12,19 @@ const portfolios = [
     imgUrl: { src: portfolioImg01, width: 600, height: 300 },
     category: "Web Design",
     title: "Food-order Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "css", "html", "Javascript"],
-    siteUrl: "#",
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["HTML", "CSS", "React", "html", "Javascript"],
+    siteUrl: "https://github.com/biniyamadal",
   },
   {
     id: "02",
     imgUrl: { src: portfolioImg04, width: 600, height: 300 },
     category: "Ux",
     title: "Video Conference Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -32,19 +32,19 @@ const portfolios = [
     imgUrl: { src: portfolioImg02, width: 600, height: 300 },
     category: "Web Design",
     title: "Shoe e-commerce website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Node.js", "MongoDB"],
+    siteUrl: "https://github.com/biniyamadal",
   },
   {
     id: "04",
     imgUrl: { src: portfolioImg05, width: 600, height: 300 },
     category: "Web Design",
     title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -52,10 +52,10 @@ const portfolios = [
     imgUrl: { src: portfolioImg03, width: 600, height: 300 },
     category: "Web Design",
     title: "Phone e-commerce website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Node.js", "MongoDB"],
+    siteUrl: "https://github.com/biniyamadal",
   },
 
   {
@@ -63,9 +63,9 @@ const portfolios = [
     imgUrl: { src: portfolioImg06, width: 600, height: 300 },
     category: "Ux",
     title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    //description:
+      //"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -73,9 +73,9 @@ const portfolios = [
     imgUrl: { src: portfolioImg07, width: 600, height: 300 },
     category: "Web Design",
     title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -83,39 +83,39 @@ const portfolios = [
     imgUrl: { src: portfolioImg01, width: 600, height: 300 },
     category: "Web Design",
     title: "Food-order Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Node.js", "MongoDB"],
+    siteUrl: "https://github.com/biniyamadal",
   },
   {
     id: "09",
     imgUrl: { src: portfolioImg02, width: 600, height: 300 },
     category: "Web Design",
     title: "Shoe e-commerce Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Node.js", "MongoDB"],
+    siteUrl: "https://github.com/biniyamadal",
   },
   {
     id: "10",
     imgUrl: { src: portfolioImg03, width: 600, height: 300 },
     category: "Web Design",
     title: "Phone e-commerce Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS","Node.js", "MongoDB"],
+    siteUrl: "https://github.com/biniyamadal",
   },
   {
     id: "11",
     imgUrl: { src: portfolioImg04, width: 600, height: 300 },
     category: "Web Design",
     title: "Landing Page",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -123,9 +123,9 @@ const portfolios = [
     imgUrl: { src: portfolioImg05, width: 600, height: 300 },
     category: "Web Design",
     title: "====================",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -133,9 +133,9 @@ const portfolios = [
     imgUrl: { src: portfolioImg06, width: 600, height: 300 },
     category: "Web Design",
     title: "Online Therapy Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
   {
@@ -143,9 +143,9 @@ const portfolios = [
     imgUrl: { src: portfolioImg07, width: 600, height: 300 },
     category: "ux",
     title: "Appointment Booking Website",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    // description:
+    //   "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
     siteUrl: "#",
   },
 ];
