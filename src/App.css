@@ -46,7 +46,7 @@ section {
     left: 0;
     z-index: 100;
     display: none;
-    margin-top: 150px;
+
   }
 
   .menu ul{
@@ -61,9 +61,11 @@ section {
     line-height: 30px;
     justify-content: center;
     align-items: center;
+    margin-top: 210px;
   }
   
   .show__menu{
     display: block;
+   
   }
 }

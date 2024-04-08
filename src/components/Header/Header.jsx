@@ -58,16 +58,20 @@ function Header() {
             </div>
             <div className="menu" ref={menuRef} onClick={toggleMenu}>
               <ul className='flex  items-center gap-10'>
-                <li className='text-smallTextColor font-[600]'>
+                <li  className='flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
+                             hover:text-white hover:font-[500]'>
                   <a onClick={handleclick} href="#about">About</a>
                   </li>
-                <li className='text-smallTextColor font-[600]'>
+                <li className='flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
+                             hover:text-white hover:font-[500]'>
                   <a onClick={handleclick} href="#services">Services</a>
                   </li>
-                <li className='text-smallTextColor font-[600]'>
+                <li className='flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
+                             hover:text-white hover:font-[500]'>
                   <a onClick={handleclick} href="#portfolio">Portfolio</a>
                   </li>
-                <li className='text-smallTextColor font-[600]'>
+                <li className='flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
+                             hover:text-white hover:font-[500]'>
                   <a onClick={handleclick} href="#contact">Contact</a>
                   </li>
                   <li>
@@ -84,6 +88,7 @@ function Header() {
                       </li>
 
               </ul>
+              
             </div>
             <div className="flex items-center gap-4">
               <a href="https://t.me/AZBB19">

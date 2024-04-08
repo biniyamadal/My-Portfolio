@@ -1,7 +1,30 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  return (<section id='contact' className='pb-16'>
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_zjra34n', 'template_uxafczw', form.current, {
+        publicKey: 'jEAMoRHtRlBOAEXSA',
+      })
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log('message sent')
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+  return (
+  <section id='contact' className='pb-16'>
     <div className="container">
       <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
         Get in touch
@@ -17,12 +40,13 @@ const Contact = () => {
 
         </div>
         <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
-          <form className='w-full'>
+          <form className='w-full' ref={form} onSubmit={sendEmail}>
             <div className="mb-5">
               <input 
               type="text" 
               placeholder='Enter your name'
               className='w-full p-3 focus:outline-none rounded-[5px]'
+              name="user_name"
               required
               />
 
@@ -31,6 +55,7 @@ const Contact = () => {
               type="email" 
               placeholder='Enter your Email'
               className='w-full p-3 focus:outline-none rounded-[5px]'
+              name="user_email"
               required
               />
 
@@ -40,7 +65,8 @@ const Contact = () => {
               type="text" 
               placeholder='Subject'
               className='w-full p-3 focus:outline-none rounded-[5px]'
-              required
+              name="user_subject"
+            
               />
 
             </div>
@@ -50,13 +76,14 @@ const Contact = () => {
               rows={3}
               placeholder='Write your message'
               className='w-full p-3 focus:outline-none rounded-[5px]'
+              name="message"
               />
 
             </div>
-            <div className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white
-            hover:bg-headingColor text-center ease-linear duration-150 cursor-pointer">
-              Send Message
-            </div>
+           
+              <input type="submit" value="Send Message" className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white
+            hover:bg-headingColor text-center ease-linear duration-150 cursor-pointer"/>
+          
 
           </form>
 
