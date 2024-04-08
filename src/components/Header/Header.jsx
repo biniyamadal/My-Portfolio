@@ -1,12 +1,11 @@
-import React,{useRef,useEffect} from 'react'
-import { RiSendPlaneLine } from 'react-icons/ri';
-import { RiMenuLine } from 'react-icons/ri';
-import "../../App.css";
-
+import React, { useRef, useEffect, useState } from 'react';
+import { RiSendPlaneLine, RiMenuLine, RiCloseLine } from 'react-icons/ri';
+import '../../App.css';
 
 function Header() {
   const headerRef = useRef(null);
   const menuRef = useRef(null);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const stickyHeaderFunc = () => {
     window.addEventListener('scroll', () => {
@@ -39,7 +38,10 @@ function Header() {
     });
   };
 
-  const toggleMenu = () => menuRef.current.classList.toggle('show__menu')
+  const toggleMenu = () => {
+    menuRef.current.classList.toggle('show__menu');
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
  <header ref={headerRef} className='w-full h-[80px] flex items-center'>
     <div className="container">
@@ -97,7 +99,10 @@ function Header() {
               <RiSendPlaneLine />Let's Talk
               </button>
               </a>
-              <span onClick={toggleMenu} className='text-2x1 text-smallTextColor md:hidden cursor-pointer'>   <RiMenuLine /></span>
+             
+              <span onClick={toggleMenu} className='text-2x1 text-smallTextColor md:hidden cursor-pointer'>
+              {isMenuOpen ? <RiCloseLine /> : <RiMenuLine />}
+            </span>
 
             </div>
         </div>
